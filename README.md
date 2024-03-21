@@ -26,6 +26,10 @@ In the zoomed version (threshold of some arbitrary zoom level), individual trans
 
 ## Prototypes
 
+Here is the prototype of the network graph:
+
+[![image](https://github.com/ssmadha/dataviz-project-proposal/assets/20583362/6d473164-be0b-4e0f-9e6f-d6cad88e244b)](https://vizhub.com/ssmadha/299559e90c49485da584a195ea3e440a)
+
 I’ve created some different types of visualizations of this data. 
 
 This shows the ASIF scores of two tissues on a scatter plot.
@@ -44,4 +48,9 @@ I am not sure how best to visualize a between-tissue comparison. Side-to-side is
 
 ## Milestones
 
-(for each week, estimate what would be accomplised)
+* Week 10: Make prototype of overall network graph with dummy data
+* Week 11: Add real data and optimize as necessary
+* Week 12: Make zoomed ability to visualize individual transcripts of genes 
+* Week 13: Make DNA target side graph
+* Week 14: Optimize any issues
+* Week 15: Polish and submit
