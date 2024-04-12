@@ -46,11 +46,17 @@ This shows an overall heatmap comparing ASIF scores between tissues.
 
 I am not sure how best to visualize a between-tissue comparison. Side-to-side is possible, but maybe some other ways may be easier to interpret?
 
+## Self-critique and Reprioritization
+
+Of my initial questions and tasks, my visualization so far has helped towards the first and third points. The second point requires data I have not yet obtained yet, so may need to be more of a long-term goal. For the first point, my visualization does point a decent general picture that there are differences, but it doesn't have a way of directly comparing between tissues. This was a challenge I initially thought and have not come up with a solution yet beyond a side-by-side view. For the third point, I have seen that some tissues that have similar expressions in different tissues have varying ASIF scores, such as FOS that is highly expressed in many tissues.
+
+In terms of usablity, this visualization is meant to be paired with some background knowledge. That being said, I have not yet implemented a legend which would definitely be helpful. Gene names to pop up upon zooming, though I may play around with positioning, or potentially showing the high expressed ones while zoomed out and the rest when zoomed in so that some genes are highlighted even at a global level.
+
 ## Milestones
 
-* Week 10: Make prototype of overall network graph with dummy data
-* Week 11: Add real data and optimize as necessary
-* Week 12: Make zoomed ability to visualize individual transcripts of genes 
+* Week 10: Make prototype of overall network graph with dummy data (complete)
+* Week 11: Add real data and optimize as necessary (complete)
+* Week 12: Make zoomed ability to visualize individual transcripts of genes (in progress)
 * Week 13: Make DNA target side graph
 * Week 14: Optimize any issues
 * Week 15: Polish and submit
