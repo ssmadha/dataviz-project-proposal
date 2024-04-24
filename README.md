@@ -41,7 +41,7 @@ This shows a view of multiple scatter plots between different tissues.
 [![image](https://github.com/ssmadha/dataviz-project-proposal/assets/20583362/2c5e4a33-32c3-438d-8011-4a4b6ff86c6e)](https://vizhub.com/ssmadha/a192b6d1dacb46ebbaa60da6a2dedf55)
 
 This shows an overall heatmap comparing ASIF scores between tissues.
-[![image](https://github.com/ssmadha/dataviz-project-proposal/assets/20583362/b05fb3a0-89a2-4596-b981-e5d9be0f670a)](https://vizhub.com/ssmadha/defb6702cd044d0582851b2ad82f85bb)
+[![image](https://github.com/ssmadha/dataviz-project-proposal/assets/20583362/ee773b72-cf7e-4b5b-8aec-991e2106d01a)](https://vizhub.com/ssmadha/defb6702cd044d0582851b2ad82f85bb)
 
 
 ## Project
