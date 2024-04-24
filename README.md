@@ -25,14 +25,6 @@ ions between genes. The edges are protein-protein interactions would be colored 
 In the zoomed version (threshold of some arbitrary zoom level), individual transcripts of the genes should show up within their overall gene circles.
 ![Zoom_sketch](https://github.com/ssmadha/dataviz-project-proposal/assets/20583362/5fc89d3e-311a-442c-ad18-b0b679fc1ca0)
 
-## Current Status
-
-The network graph is mostly implemented. The graph displays information per selectable tissue and shows individual transcript information on zoom.
-
-[![image](https://github.com/ssmadha/dataviz-project-proposal/assets/20583362/d6f9c11c-ae27-4d4b-8649-bd3ccc876136)](https://vizhub.com/ssmadha/299559e90c49485da584a195ea3e440a)
-
-[![image](https://github.com/ssmadha/dataviz-project-proposal/assets/20583362/3b12ba77-665b-4042-b5ae-6817a213273b)](https://vizhub.com/ssmadha/299559e90c49485da584a195ea3e440a)
-
 
 ## Prototypes
 
@@ -49,25 +41,30 @@ This shows a view of multiple scatter plots between different tissues.
 [![image](https://github.com/ssmadha/dataviz-project-proposal/assets/20583362/2c5e4a33-32c3-438d-8011-4a4b6ff86c6e)](https://vizhub.com/ssmadha/a192b6d1dacb46ebbaa60da6a2dedf55)
 
 This shows an overall heatmap comparing ASIF scores between tissues.
-[![image](ht![Uploading Screenshot_2024-04-16_projectProgress1.png…]()
-tps://github.com/ssmadha/dataviz-project-proposal/assets/20583362/b05fb3a0-89a2-4596-b981-e5d9be0f670a)](https://vizhub.com/ssmadha/defb6702cd044d0582851b2ad82f85bb)
+[![image](https://github.com/ssmadha/dataviz-project-proposal/assets/20583362/b05fb3a0-89a2-4596-b981-e5d9be0f670a)](https://vizhub.com/ssmadha/defb6702cd044d0582851b2ad82f85bb)
 
 
-## Open Questions
+## Project
 
-I am not sure how best to visualize a between-tissue comparison. Side-to-side is possible, but maybe some other ways may be easier to interpret?
+Below, please find screenshots of the project.
+[![image](https://github.com/ssmadha/dataviz-project-proposal/assets/20583362/e6044bb0-eb54-4b93-86d5-51262bad03a9)
+](https://vizhub.com/ssmadha/299559e90c49485da584a195ea3e440a)
 
-## Self-critique and Reprioritization
+[![image](https://github.com/ssmadha/dataviz-project-proposal/assets/20583362/a2636e4a-24ea-436c-a5b6-bdc9f2108596)
+](https://vizhub.com/ssmadha/299559e90c49485da584a195ea3e440a)
 
-Of my initial questions and tasks, my visualization so far has helped towards the first and third points. The second point requires data I have not yet obtained yet, so may need to be more of a long-term goal. For the first point, my visualization does point a decent general picture that there are differences, but it doesn't have a way of directly comparing between tissues. This was a challenge I initially thought and have not come up with a solution yet beyond a side-by-side view. For the third point, I have seen that some tissues that have similar expressions in different tissues have varying ASIF scores, such as FOS that is highly expressed in many tissues.
+## Open Questions/Future directions
 
-In terms of usablity, this visualization is meant to be paired with some background knowledge. That being said, I have not yet implemented a legend which would definitely be helpful. Gene names to pop up upon zooming, though I may play around with positioning, or potentially showing the high expressed ones while zoomed out and the rest when zoomed in so that some genes are highlighted even at a global level.
+* Collecting data for and implementing a visualization for domain-specific connection information
+* Implementing a side view for DNA binding targets
+* Adding a gene search bar
+* Viewing multiple genes in bottom list with collapsable transcript information
 
 ## Milestones
 
 * Week 10: Make prototype of overall network graph with dummy data (complete)
 * Week 11: Add real data and optimize as necessary (complete)
-* Week 12: Make zoomed ability to visualize individual transcripts of genes (in progress)
-* Week 13: Make DNA target side graph
-* Week 14: Optimize any issues
-* Week 15: Polish and submit
+* Week 12: Make zoomed ability to visualize individual transcripts of genes (complete)
+* Week 13: Make DNA target side graph (skipped)
+* Week 14: Optimize any issues (complete)
+* Week 15: Polish and submit (complete)
